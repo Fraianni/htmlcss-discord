@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.2rem;
+}
+
+
+
+.height {
+    height: 400px;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+
+header {
+    background-image: url('img_discord/jumbo.png');
+    background-position-y: center;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+}
+
+.menu {
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+.access-button {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+
+
+.flex.header_content {
+    color: white;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 90px 0px 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex>h1 {
+    padding: 40px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    line-height: 30px;
+}
+
+.header-buttons {
+    text-align: center;
+    padding: 0px 0px 30px;
+}
+
+#browser {
+    background-color: #23272a;
+    color: white;
+}
+
+.header-buttons .access-button {
+    font-size: 1.3rem;
+
+}
+
+.section_content {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.even {
+    background-color: #f6f6f6;
+}
+
+.last_section {
+    flex-direction: column;
+}
+
+.block1 {
+    color: wheat;
+    justify-content: space-around;
+    height: 200px;
+}
+
+hr {
+    color: gray;
+    margin: 0px 100px;
+}
+
+.block2 {
+    color: wheat;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
