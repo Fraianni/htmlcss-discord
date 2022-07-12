@@ -12,9 +12,7 @@ body {
 
 
 
-.height {
-    height: 400px;
-}
+
 
 footer {
     background-color: #23272a;
@@ -36,13 +34,13 @@ header {
     padding: 20px 0px;
 }
 
-a {
+.options a {
     text-decoration: none;
     color: white;
     padding: 0px 20px;
 }
 
-.access-button {
+button {
     background-color: white;
     padding: 10px 20px;
     border: none;
@@ -87,31 +85,133 @@ p {
 }
 
 .section_content {
-    justify-content: space-around;
     align-items: center;
+    padding: 0px 300px;
+    justify-content: center;
+    padding: 100px 50px;
 }
+
+
+.text {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+#luogo {
+    padding-top: 120px;
+
+}
+
+
+
+.text p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
 
 .even {
     background-color: #f6f6f6;
 }
 
+
+
 .last_section {
     flex-direction: column;
 }
 
-.block1 {
-    color: wheat;
-    justify-content: space-around;
-    height: 200px;
+.text.affidabile {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
 }
+
+.text.avventura {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    max-width: 800px;
+    text-align: center;
+
+}
+
+footer {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex.row-links {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 100px 50px;
+
+}
+
+.flex.menu-sx {
+    flex-direction: column;
+
+}
+
+.menu-sx h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    max-width: 300px;
+    color: #7187d7;
+    line-height: 30px;
+    padding-bottom: 40px;
+
+}
+
+.menu-sx img {
+    height: 18px;
+    width: 30px;
+    display: inline-block;
+}
+
+.flex.foot-col {
+    flex-direction: column;
+    line-height: 30px;
+}
+
+h4 {
+    display: inline-block;
+    color: white;
+}
+
+.blue {
+    color: #7187d7;
+}
+
+.foot-col a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
 
 hr {
     color: gray;
-    margin: 0px 100px;
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 .block2 {
-    color: wheat;
+    flex-direction: row;
     justify-content: space-around;
     padding: 50px 0px;
+}
+
+#button-footer {
+    background-color: #8ea1e1;
 }
