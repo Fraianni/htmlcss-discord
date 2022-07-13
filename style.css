@@ -34,6 +34,14 @@ header {
     padding: 20px 0px;
 }
 
+.logo {
+    padding-top: 5px;
+}
+
+.options {
+    padding-top: 10px;
+}
+
 .options a {
     text-decoration: none;
     color: white;
